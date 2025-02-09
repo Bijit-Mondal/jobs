@@ -13,4 +13,5 @@ Require all denied
 
 <IfModule mod_alias.c>
 RedirectMatch 301 ^/jobs/$ https://bijit.xyz/jobs/public
+RedirectMatch 301 ^/$ https://jobs.bijit.xyz/public
 </IfModule>
